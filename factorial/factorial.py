@@ -12,13 +12,6 @@ def fact(n):
         return 1
     return n * fact(n -1)
 
-def div(n):
-    """
-    Just divide
-    """
-    res = 10 / n
-    return res
-
 
 def main(n):
     res = fact(n)
