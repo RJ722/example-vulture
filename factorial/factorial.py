@@ -13,6 +13,16 @@ def fact(n):
     return n * fact(n -1)
 
 
+def unused_function():
+    """
+    This function does nothing.
+    It is never called anywhere, hence, it is an example
+    of dead code.
+    """
+    print("I am an example of dead code")
+    return 0
+
+
 def main(n):
     res = fact(n)
     print(res)
