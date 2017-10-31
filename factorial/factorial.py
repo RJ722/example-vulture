@@ -20,4 +20,7 @@ def main(n):
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         main(int(sys.argv[1]))
+    else:
+        print("Usage: python factorial.py NUMBER")
+        sys.exit()
 
