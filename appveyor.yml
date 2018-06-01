@@ -1,0 +1,11 @@
+version: 1.0.{build}
+
+install:
+    - cmd: pip install vulture
+
+build: off
+
+test_script:
+    - cmd: python factorial/factorial_test.py
+    - cmd: vulture factorial/
+
